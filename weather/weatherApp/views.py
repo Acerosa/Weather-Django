@@ -40,3 +40,20 @@ def get_weather_data(city):
         # Handle JSON decoding errors
         print(f"JSONDecodeError: {str(e)}")
         return None
+
+# View function for rendering the index page
+def index(request):
+    if request.method == 'POST':
+        city = request.POST.get('city', '')  # Get city name from POST data
+        if city:
+            weather_data = get_weather_data(city)
+            if weather_data:
+                return render(request, "main/index.html", weather_data)
+            else:
+                error_message = "Failed to fetch weather data. Please try again later."
+                return render(request, "main/index.html", {"error_message": error_message})
+        else:
+            error_message = "Please enter a city name."
+            return render(request, "main/index.html", {"error_message": error_message})
+    else:
+        return render(request, "main/index.html")
