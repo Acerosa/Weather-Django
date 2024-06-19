@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501df442-be61-4d79-9194-f7464941339f" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/weather/weatherApp/templates/weatherApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/weather/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/weather/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/weather/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/weather/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="501df442-be61-4d79-9194-f7464941339f" name="Changes" comment="view commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,11 +72,29 @@
       <option name="project" value="LOCAL" />
       <updated>1718796781019</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="get_weather_data function, and index.html template">
+      <option name="closed" value="true" />
+      <created>1718797987459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718797987459</updated>
+    </task>
+    <task id="LOCAL-00003" summary="view commit">
+      <option name="closed" value="true" />
+      <created>1718798099405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718798099405</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="get_weather_data function, and index.html template" />
+    <MESSAGE value="view commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="view commit" />
   </component>
 </project>
